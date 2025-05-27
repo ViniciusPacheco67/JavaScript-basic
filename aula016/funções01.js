@@ -7,7 +7,7 @@ function parimp(n) {
     
 }
 
-console.log(parimp(23))
+console.log(parimp(22))
 
 
 /*

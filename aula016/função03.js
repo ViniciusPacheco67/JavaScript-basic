@@ -1,5 +1,5 @@
 var v = function(x) {
-    return x*2
+    return x*5
 }
 
 console.log(v(5))
