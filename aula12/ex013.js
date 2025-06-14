@@ -1,11 +1,6 @@
 var agora = new Date()
-var hora = new Date()
-var diasam = agora.getDay()
-var relo = hora.getHours()
-if (relo) {
-    console.log(`Agora são exatamente ${hora} horas.`)
-}
-switch (diasam) {
+var diaSem = agora.getDay()
+switch (diaSem) {
     case 0:
         console.log('domingo')
         break
@@ -26,5 +21,8 @@ switch (diasam) {
         break
     case 6:
         console.log('sábodo')
-        break                            
+        break
+    default: 
+        console.log('[ERRO] dia invalido') 
+        break                               
 }
