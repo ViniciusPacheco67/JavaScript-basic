@@ -1,4 +1,4 @@
-var valores = [8, 1, 7, 4, 2, 9, ]
+var valores = [8, 1, 7, 4, 2, 9]
 valores.sort( )
 
 //console.log(valores)

@@ -19,3 +19,12 @@ console.log('tudo bem')
 console.log('tudo bem')
 console.log('tudo bem')
 */
+
+/*
+var n = 1
+while (n <= 10) {
+    console.log(`peido ${n}`)
+    n++
+} 
+
+*/
