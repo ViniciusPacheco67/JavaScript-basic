@@ -23,11 +23,11 @@ function inlista(n, l) {
 
 function adicionar(){
     if(isNumero(num.value) && !inlista(num.value, valores)) {
-       valores.push(Number(num.value))
-       var item = document.createElement('option')
-       item.text = `Valor ${num.value} adicionador.`
-       lista.appendChild(item) 
-       res.innerHTML = ''
+        valores.push(Number(num.value))
+        var item = document.createElement('option')
+        item.text = `Valor ${num.value} adicionador.`
+        lista.appendChild(item) 
+        res.innerHTML = ''
     } else {
         window.alert('Valor invalido ou já encontrado na lista.')
        
@@ -53,7 +53,7 @@ function finalizar() {
                 menor = valores[pos]
         }
         média = soma / tot
-        res.innerHTML =''
+        res.innerHTML = ''
         res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados.</p> `
         res.innerHTML += `<p>O maior número informado ${maior}.</p>`
         res.innerHTML += `<p>O menor número informado ${menor}.</p>`
